@@ -4,7 +4,7 @@ var port = process.env.PORT || 3000;
 
 var org = nforce.createConnection({
     clientId: '555555',
-    clientSecret: '666666',
+    clientSecret: '5047711542434093658',
     redirectUri: 'https://lightning-out-test.herokuapp.com/oauth/_callback',
 });
 

@@ -3,7 +3,7 @@ var express = require('express');
 var port = process.env.PORT || 3000;
 
 var org = nforce.createConnection({
-    clientId: '555555',
+    clientId: '3MVG9I5UQ_0k_hTngSFLpXPUyV2Wxu.3JAafGG8i.0wFh6MczEcr6NsUedmbZRyamGc884gIv9ZdeHUOm4Sfw',
     clientSecret: '5047711542434093658',
     redirectUri: 'https://lightning-out-test.herokuapp.com/oauth/_callback',
 });

@@ -1,6 +1,7 @@
 var nforce = require('nforce');
 var express = require('express');
 var port = process.env.PORT || 3000;
+var app = express();
 
 var org = nforce.createConnection({
     clientId: '3MVG9I5UQ_0k_hTngSFLpXPUyV2Wxu.3JAafGG8i.0wFh6MczEcr6NsUedmbZRyamGc884gIv9ZdeHUOm4Sfw',
@@ -8,7 +9,6 @@ var org = nforce.createConnection({
     redirectUri: 'https://lightning-out-test.herokuapp.com/oauth/_callback',
 });
 
-var app = express();
 
 // Require Routes js
 var routesHome = require('./routes/home');
